@@ -20,6 +20,13 @@
   Steps:
     - promote one of components to Container component. Container component has a direct connection to the state managed by redux
 
+### Lecture 41 - Container component
+  > Container component is just a component that has direct access to the state that's produced by redux
+
+  - @me: Container component needs to receive piece of state from redux
+  - Only the most parent component that uses a particular piece of state needs to be connected to redux
+
+
 ### 42 - implement Container class
   - Use connect function from react-redux lib
   ```javascript
